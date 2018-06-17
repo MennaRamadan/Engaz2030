@@ -30,7 +30,7 @@ import { googleMapComponent } from './map/googleMap.component';
 
 const appRoutes: Routes = [
   // { path: 'table', component: tableComponent },
-  { path: 'googleMap', component: googleMapComponent }
+  { path: 'home', component: googleMapComponent }
 ];
 
 @NgModule({
