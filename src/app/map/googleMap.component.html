@@ -1,0 +1,8 @@
+<div>
+    <agm-map *ngIf="locations.length >0" [latitude]="locations[0].latitide" [longitude]="locations[0].langtitude">
+
+        <agm-marker *ngFor="let location of locations" [latitude]="location.latitide"
+         [longitude]="location.langtitude"></agm-marker>
+    </agm-map>
+</div>
+

@@ -1,0 +1,30 @@
+
+.bgColor{
+    background-color: #ebebeb;
+    /* width: 100%; */
+}
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+  
+  padding-top: 1em ;
+}
+
+/* .col-container {
+  display: flex;
+  width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+} */
+
+
+.container{
+      padding-left: 5px ;
+    padding-right: 5px ;
+  }

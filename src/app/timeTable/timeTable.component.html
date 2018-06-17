@@ -1,0 +1,35 @@
+<div dir="rtl" class="componentBgColor">
+  <ul class="nav nav-pills">
+    <li>
+      <a href="#">المخطط الزمنى</a>
+    </li>
+    <li class="active">
+      <a href="#">جدول الابعاد</a>
+    </li>
+    <li>
+      <a href="#">المعايير القياسية</a>
+    </li>
+  </ul>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>الاسم</th>
+        <th>الفعلى</th>
+        <th>المستهدف</th>
+        <th>النتيجة</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of myData">
+        <td>{{d.Name}}</td>
+        <td>{{d.Actual}}</td>
+        <td>{{d.target}}</td>
+        <td>{{d.Result}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- <router-outlet></router-outlet> -->
+
+</div>
