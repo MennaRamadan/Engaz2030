@@ -1,16 +1,14 @@
-<div class="controlerBgColor">
-    <div class="projectPadding">
-        <div *ngFor="let d of myData" dir="rtl">
-            <div class="row">
-                <h3>{{d.title}}</h3>
-            </div>
-            <div class="row">
-                <h5>{{d.subTitle}}</h5>
-            </div>
-            <div class="row">
-                <div>{{d.data1}}</div>
-                <div>{{d.data2}}</div>
-            </div>
+<div class="projectPadding controlerBgColor">
+    <div *ngFor="let d of myData" dir="rtl">
+        <div class="row titleColor">
+            <h3>{{d.title}}</h3>
+        </div>
+        <div class="row subtiteleColor">
+            <h5>{{d.subTitle}}</h5>
+        </div>
+        <div class="row">
+            <div>{{d.data1}}</div>
+            <div>{{d.data2}}</div>
         </div>
     </div>
 </div>

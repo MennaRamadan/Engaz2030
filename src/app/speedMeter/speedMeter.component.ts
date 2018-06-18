@@ -32,7 +32,7 @@ export class speedMeterComponent implements OnInit {
                 plotShadow: false
             },
             title: {
-                text: 'Speedometer'
+                text: ''
             },
             pane: {
                 startAngle: -150,
@@ -129,15 +129,5 @@ export class speedMeterComponent implements OnInit {
                 }, 3000);
             }
         };
-
-
-
-
-        // // add point to chart serie
-
-        // this.chart.addPoint(Math.floor(Math.random() * 10));
-
-
-
     }
 }   

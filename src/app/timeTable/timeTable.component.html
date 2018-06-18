@@ -1,4 +1,4 @@
-<div dir="rtl" class="componentBgColor">
+<div dir="rtl" class="controlerBgColor">
   <ul class="nav nav-pills">
     <li>
       <a href="#">المخطط الزمنى</a>
@@ -13,15 +13,15 @@
 
   <table class="table table-bordered">
     <thead>
-      <tr>
+      <tr class="textColor">
         <th>الاسم</th>
         <th>الفعلى</th>
         <th>المستهدف</th>
         <th>النتيجة</th>
       </tr>
     </thead>
-    <tbody>
-      <tr *ngFor="let d of myData">
+    <tbody >
+      <tr *ngFor="let d of myData" class="table-active">
         <td>{{d.Name}}</td>
         <td>{{d.Actual}}</td>
         <td>{{d.target}}</td>

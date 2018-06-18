@@ -1,14 +1,14 @@
-<div dir="rtl" class="componentBgColor vRight">
-    <div class="contentPadding">
+<div dir="rtl" class=" vRight controlerBgColor">
+    <div class="contentPadding vMiddle">
         <div class="row">
             <h5>{{myData.title}}</h5>
         </div>
         <hr/>
         <div class="row">
-            <div class="col-sm-4">
-                <img src={{myData.Image}} style="width:2em;height:2em;" />
+            <div class="col-sm-2">
+                <img src={{myData.Image}} class="imgStyle" />
             </div>
-            <div class="col-sm-8" class="divLeft">
+            <div class="col-sm-10">
                 <div class="textColor">
                     <span>المسؤول</span>
                 </div>
@@ -21,15 +21,17 @@
         <div class="row">
             <div class="col-sm-5">
                 <div class="row">
-                    <div>
+                    <div class="col-sm-4">
                         <img style="width:2em;height:2em;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN0AAADkCAMAAAArb9FNAAAAbFBMVEX///8AAADr6+t9fX3w8PCLi4vl5eWjo6Pf39+QkJBGRkatra1VVVX19fXW1tbFxcVcXFwtLS28vLyDg4PZ2dnHx8cQEBCxsbHPz8/5+flOTk4WFhZwcHCfn59mZmZCQkIdHR0zMzM6Ojpubm6FoAtSAAADrElEQVR4nO3da1faQBCAYRaw3OWiFFC02v7//1hROM2uQzITEmbpeZ+PpUz3FUlCkh46HQAAAAAAOt31anK0WQ8bGTmcb04jV9tuIyNrWf8JicXmwpGbaTpyv21krVar53Qhn14uGPkiTnxbNbZmrdmTuJIPz481Rz7+PDfyadbo2ivdn1vIwaTWyEnZyPuG119qXbaSEO5qjLwrH7luvOGs0lfuYGQeKb/lCq62cZlVrSSEuXHktnpkv5WW785uUAqM2wHFxPd2YlIrxVLCq2lkTzOy3sbKSt7PpSwHLl3VxNBaUcFct5SeYWTF9vLkGnv1V91SLD9p5cRpa03mpRh2wI/akS1WHQ2//USP3pM/H6hHpkcpy9PI9NCs7jGeXrLFLHwoSF4C/Rsv2WIWXvRN/Ej7b7xB9O89FB+KtzcL9chF9LzoQOAheuiSzx86o3M/507ylhyrR46j50UPxccw9gM8q7gu3qs1Xxe/y6m7DHXUFVBHXQOoo67Ar647nwwi8UFhSd0yeeJZk6W2bpE8cX3RmaTZ6Ozp4eq6ukrqvlvqP2elRhWjM6gL0Wcwg91vxVIyqKt1QmJX9Uv5KYe68LYz1y2rp4ZM6sLSGrfXLSWPurC3xVVeBznKpM54DUWzRTnIpc50kUF9hjGXOtPlS+Wp74zqopNzFd61Q7Ops2w21UvJps5wFr6vnplPnf6AWnk9LeRUp78ribov1BlRJ6COuqL/uy66UKq4w0ohuktJeftIaKfuV/Fp6mPvUtENguPqv3/URl14uu8fDVW3Qyn0hqeRW80daUet1GWDOuryRB11eaKOujxRR12eqKMuT9RJdfvujxx1943UWf5HzzX1qBNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+mqmzfP30NT00Ujce3eVoNK5Z18wXSF7XTv+iey+1Bn1cx/B9j5mYGupevBdrNjDU6b++PRez6qh/9tXzsmLbJ9/aVtOwxTxYea/XZGWLa+prha/jrjrndvNqHQjfyi+nZWdQMLuFLef0R724D/3B1Hv1pcaj+m1fdv1cGXcDAAAAAICb9RfKaFUlj09E2QAAAABJRU5ErkJggg==">
                     </div>
                     <div class="col-sm-8">
-                        <div class="textColor">
-                            <span>تاريخ البدا</span>
-                        </div>
-                        <div>
-                            <span>{{myData.StartDate}}</span>
+                        <div class="row">
+                            <div class="textColor">
+                                تاريخ البدا
+                            </div>
+                            <div>
+                                {{myData.StartDate}}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -41,11 +43,13 @@
                         <img style="width:2em;height:2em;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN0AAADkCAMAAAArb9FNAAAAbFBMVEX///8AAADr6+t9fX3w8PCLi4vl5eWjo6Pf39+QkJBGRkatra1VVVX19fXW1tbFxcVcXFwtLS28vLyDg4PZ2dnHx8cQEBCxsbHPz8/5+flOTk4WFhZwcHCfn59mZmZCQkIdHR0zMzM6Ojpubm6FoAtSAAADrElEQVR4nO3da1faQBCAYRaw3OWiFFC02v7//1hROM2uQzITEmbpeZ+PpUz3FUlCkh46HQAAAAAAOt31anK0WQ8bGTmcb04jV9tuIyNrWf8JicXmwpGbaTpyv21krVar53Qhn14uGPkiTnxbNbZmrdmTuJIPz481Rz7+PDfyadbo2ivdn1vIwaTWyEnZyPuG119qXbaSEO5qjLwrH7luvOGs0lfuYGQeKb/lCq62cZlVrSSEuXHktnpkv5WW785uUAqM2wHFxPd2YlIrxVLCq2lkTzOy3sbKSt7PpSwHLl3VxNBaUcFct5SeYWTF9vLkGnv1V91SLD9p5cRpa03mpRh2wI/akS1WHQ2//USP3pM/H6hHpkcpy9PI9NCs7jGeXrLFLHwoSF4C/Rsv2WIWXvRN/Ej7b7xB9O89FB+KtzcL9chF9LzoQOAheuiSzx86o3M/507ylhyrR46j50UPxccw9gM8q7gu3qs1Xxe/y6m7DHXUFVBHXQOoo67Ar647nwwi8UFhSd0yeeJZk6W2bpE8cX3RmaTZ6Ozp4eq6ukrqvlvqP2elRhWjM6gL0Wcwg91vxVIyqKt1QmJX9Uv5KYe68LYz1y2rp4ZM6sLSGrfXLSWPurC3xVVeBznKpM54DUWzRTnIpc50kUF9hjGXOtPlS+Wp74zqopNzFd61Q7Ops2w21UvJps5wFr6vnplPnf6AWnk9LeRUp78ribov1BlRJ6COuqL/uy66UKq4w0ohuktJeftIaKfuV/Fp6mPvUtENguPqv3/URl14uu8fDVW3Qyn0hqeRW80daUet1GWDOuryRB11eaKOujxRR12eqKMuT9RJdfvujxx1943UWf5HzzX1qBNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+qJNQ5486CXX+mqmzfP30NT00Ujce3eVoNK5Z18wXSF7XTv+iey+1Bn1cx/B9j5mYGupevBdrNjDU6b++PRez6qh/9tXzsmLbJ9/aVtOwxTxYea/XZGWLa+prha/jrjrndvNqHQjfyi+nZWdQMLuFLef0R724D/3B1Hv1pcaj+m1fdv1cGXcDAAAAAICb9RfKaFUlj09E2QAAAABJRU5ErkJggg==">
                     </div>
                     <div class="col-sm-8">
-                        <div class="textColor">
-                            <span>تاريخ الانتهاء</span>
-                        </div>
-                        <div>
-                            <span>{{myData.EndDate}}</span>
+                        <div class="row">
+                            <div class="textColor">
+                                تاريخ الانتهاء
+                            </div>
+                            <div>
+                                {{myData.EndDate}}
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,14 +1,33 @@
-<div class="controlerBgColor">
-    <div dir="rtl">
-        <div class="row">
-            <speed-Meter></speed-Meter>
+<div dir="rtl" class="controlerBgColor">
+    <div class="row">
+        <div class="col-sm-5">
+            <home-numbers></home-numbers>
         </div>
-        <div class="row">
-            <div class="col-sm-2" *ngFor="let d of myData">
-                <div class="textColor">{{d.title}}</div>
-                <div>{{d.subTitle}}</div>
-                <div class="col-sm-1" class="vMiddle"></div>
+        <div class="col-sm-7">
+            <div>
+                <speed-Meter></speed-Meter>
             </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="textColor">
+                        <th>الفعلى السابق</th>
+                        <th>الفعلى</th>
+                        <th>المستهدف</th>
+                        <th>النتيجة</th>
+                        <th>المستهدف التالى</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="textBold">
+                        <td>5142</td>
+                        <td>5500</td>
+                        <td>7000</td>
+                        <td class="greenTextColor">76%</td>
+                        <td>7010</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+
     </div>
 </div>

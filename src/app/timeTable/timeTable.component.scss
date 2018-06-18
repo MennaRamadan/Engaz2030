@@ -8,13 +8,23 @@ border-bottom-style: solid;
 border-bottom-color: blue;
     color:blue#000 !important;
   background-color: transparent !important;
-  font-weight: bold;
 }
 .nav-pills > li > a{
     border-radius:0px;
     padding-left: 1em;
     padding-right: 1em;
+    font-weight: bold;
 }
-.componentBgColor{
+
+.controlerBgColor{
     background-color: white;
+    height: 100%;
+}
+
+.textColor{
+    color: rgb(194,176,110);
+}
+
+.textCenter{
+    text-align: center;
 }

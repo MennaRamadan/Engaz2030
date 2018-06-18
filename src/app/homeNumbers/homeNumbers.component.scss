@@ -2,24 +2,34 @@
 .vRight{
     border-right: 6px solid green;
     height: auto;
-    margin: 1px;
+    //margin: 1px;
 
 }
 
+.controlerBgColor{
+background-color: white;
+height: 100%;
+}
 .vMiddle{
-    border-left: 6px solid gray;
+    border-left: 1px solid rgb(238,238,238);
     height: auto;
     left: 50%;
 }
 
 .textColor{
-    color: #d2c9ac;
+    color: rgb(194,176,110);
 }
 
-.componentBgColor{
-    background-color: white;
-}
 
 .contentPadding{
-    margin-right: 1em;
+    margin-right: 1.5em;
+}
+
+h5{
+    padding: 1em;
+}
+
+.imgStyle{
+    width:2em;
+    height:2em;
 }

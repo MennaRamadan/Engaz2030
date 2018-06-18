@@ -18,10 +18,10 @@ export class highChartComponent implements OnInit {
         myData: any[] = [];
 
        ngOnInit(){
-           this.highChartService.getJSON().subscribe(data => {
+        //    this.highChartService.getJSON().subscribe(data => {
               
-                console.log(data)
-                this.myData = data;
-            });
+        //         console.log(data)
+        //         this.myData = data;
+        //     });
        }
 }   

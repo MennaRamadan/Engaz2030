@@ -1,7 +1,6 @@
-
 .bgColor{
     background-color: #ebebeb;
-    /* width: 100%; */
+     /* width: 100%;  */
 }
 
 .row {
@@ -10,21 +9,13 @@
 
 .col {
   flex: 1; /* additionally, equal width */
-  
   padding-top: 1em ;
 }
 
-/* .col-container {
-  display: flex;
-  width: 100%;
-}
-.col {
-  flex: 1;
-  padding: 16px;
-} */
-
-
 .container{
-      padding-left: 5px ;
-    padding-right: 5px ;
-  }
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: auto;
+}

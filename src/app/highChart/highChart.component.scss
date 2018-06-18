@@ -19,5 +19,27 @@
 
 .controlerBgColor{
     background-color: white;
-    width: 100%
+    height: 100%;
+  }
+  .textBold{
+      font-weight: bold;
+      color: rgb(94,100,114);
+  }
+
+  .contentPadding{
+      padding: 1em;
+  }
+
+  .vMiddle{
+    border-left: 1px solid rgb(238,238,238);
+    height: auto;
+    left: 50%;
+}
+
+  .greenTextColor{
+      color: rgb(149,187,110);
+  }
+
+table{
+    margin-bottom: 0px !important;
 }
